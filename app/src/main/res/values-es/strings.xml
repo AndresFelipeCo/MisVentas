@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Mis Ventas</string>
+    <string name="authentication_text">Autenticación</string>
+    <string name="document_text">Documento</string>
+    <string name="myDocument_text">Mi documento</string>
+    <string name="e_mail">Correo</string>
+    <string name="myEMail">Tu correo</string>
+    <string name="incorrectEMail">Correo Invalido</string>
+    <string name="password_text">Contraseña</string>
+    <string name="myPassword_text">Tu contraseña</string>
+    <string name="incorrectPassword">Contraseña incorrecta</string>
+    <string name="logIn_text">Iniciar sesión</string>
+    <string name="forgotYourPassword_text">¿Olvidó su contraseña?</string>
+
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_Sales_record">Regitro ventas</string>
+    <string name="menu_payment_record">Registro de abonos</string>
+
+
+
+</resources>

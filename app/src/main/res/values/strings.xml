@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Mis Ventas</string>
+    <string name="authentication_text">Authentication</string>
+    <string name="document_text">Document</string>
+    <string name="myDocument_text">My document</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="myEMail">Your E-Mail</string>
+    <string name="incorrectEMail">Invalid E-Mail</string>
+    <string name="password_text">Password</string>
+    <string name="myPassword_text">Your password</string>
+    <string name="incorrectPassword">Invalid Password</string>
+    <string name="logIn_text">Log in</string>
+    <string name="forgotYourPassword_text">Forgot your password?</string>
+    <string name="title_activity_ventas">Ventas</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_Sales_record">Sales record</string>
+    <string name="menu_payment_record">Installment loan records</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
