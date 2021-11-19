@@ -16,5 +16,13 @@
             android:id="@+id/nav_abonos"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_payment_record" />
+        <item
+            android:id="@+id/nav_registro_articulos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_payment_record" />
+        <item
+            android:id="@+id/nav_registro_vendedor"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_payment_record" />
     </group>
 </menu>

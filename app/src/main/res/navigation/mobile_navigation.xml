@@ -21,4 +21,14 @@
         android:name="com.unicaldas.misventas.Abonos"
         android:label="@string/menu_payment_record"
         tools:layout="@layout/fragment_abonos" />
+    <fragment
+        android:id="@+id/nav_registro_articulos"
+        android:name="com.unicaldas.misventas.Abonos"
+        android:label="@string/menu_payment_record"
+        tools:layout="@layout/fragment_registro_articulos" />
+    <fragment
+        android:id="@+id/nav_registro_vendedor"
+        android:name="com.unicaldas.misventas.Abonos"
+        android:label="@string/menu_payment_record"
+        tools:layout="@layout/fragment_registro_vendedor" />
 </navigation>
