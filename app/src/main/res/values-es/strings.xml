@@ -12,10 +12,14 @@
     <string name="logIn_text">Iniciar sesión</string>
     <string name="forgotYourPassword_text">¿Olvidó su contraseña?</string>
 
+    <string name="action_settings">Configuración</string>
+
 
     <string name="menu_home">Inicio</string>
     <string name="menu_Sales_record">Regitro ventas</string>
     <string name="menu_payment_record">Registro de abonos</string>
+    <string name="menu_products_check_in">Registro de artículos</string>
+    <string name="menu_seller_record">Registrar Vendedor</string>
 
 
 
