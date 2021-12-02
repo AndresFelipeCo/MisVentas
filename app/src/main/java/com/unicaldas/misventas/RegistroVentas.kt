@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ArrayAdapter
 import android.widget.Spinner
 import androidx.navigation.fragment.findNavController
 
@@ -41,6 +42,14 @@ class RegistroVentas : Fragment() {
 
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val spinnerTCortinas: Spinner = view.findViewById(R.id.spinnerTCortinas)
+        var tareas = arrayOf("Veneciana", "Japonesa", "Persiana")
+        val taskAdapter = ArrayAdapter(context?.applicationContext!!, android.R.layout.simple_spinner_item, tareas)
+        taskAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        spinnerTCortinas.adapter = taskAdapter
+    }
     companion object {
         /**
          * Use this factory method to create a new instance of
