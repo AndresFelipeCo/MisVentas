@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_action_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_ventas_realizadas"
+            android:icon="@drawable/ic_action_shopping"
+            android:title="Ventas Realizadas" />
+        <item
+            android:id="@+id/nav_registro_ventas"
+            android:icon="@drawable/ic_action_shopping"
+            android:title="@string/menu_Sales_record" />
+        <item
+            android:id="@+id/nav_abonos"
+            android:icon="@drawable/ic_action_money"
+            android:title="@string/menu_payment_record" />
+        <item
+            android:id="@+id/nav_registro_articulos"
+            android:icon="@drawable/ic_action_add_circle"
+            android:title="@string/menu_products_check_in" />
+        <item
+            android:id="@+id/nav_registro_vendedor"
+            android:icon="@drawable/ic_action_add_reaction"
+            android:title="@string/menu_seller_record" />
+    </group>
+</menu>
