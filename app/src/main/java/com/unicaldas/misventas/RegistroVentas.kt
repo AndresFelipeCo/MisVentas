@@ -6,7 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.Button
 import android.widget.Spinner
+import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 
 // TODO: Rename parameter arguments, choose names that match
@@ -45,10 +47,22 @@ class RegistroVentas : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val spinnerTCortinas: Spinner = view.findViewById(R.id.spinnerTCortinas)
-        var tareas = arrayOf("Veneciana", "Japonesa", "Persiana")
+        //var tareas = arrayOf("Veneciana", "Japonesa", "Persiana")
+        var tareas : ArrayList<Task> = ArrayList()
+        tareas.add(Task("Ana Suarez", "000000", "2021-01-01", "Kra 6", "111111", "22222", "Veneciana", "2", "3"))
+        tareas.add(Task("Juan Luna", "000000", "2021-02-05", "Cll 30", "111111", "22222", "Japonesa", "2", "3"))
+        tareas.add(Task("Pablo Esquivel", "000000", "2021-02-20", "Cll 30", "111111", "22222", "Persiana", "2", "3"))
+
         val taskAdapter = ArrayAdapter(context?.applicationContext!!, android.R.layout.simple_spinner_item, tareas)
         taskAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinnerTCortinas.adapter = taskAdapter
+
+        val btnRegistrarVenta: Button = view.findViewById(R.id.btnRegistrarVenta)
+        btnRegistrarVenta.setOnClickListener {
+            var tarea = spinnerTCortinas.selectedItem as Task
+            Toast.makeText(context?.applicationContext!!, tarea.spinnerTCortinas, Toast.LENGTH_LONG).show()
+            //Toast.makeText(context?.applicationContext!!, spinnerTCortinas.selectedItem.toString(), Toast.LENGTH_LONG).show()
+        }
     }
     companion object {
         /**

@@ -29,7 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:text="Docuemnto del cliente"
+            android:text="Documento del cliente"
             android:layout_marginHorizontal="10dp"
             android:layout_marginTop="10dp"/>
         <EditText

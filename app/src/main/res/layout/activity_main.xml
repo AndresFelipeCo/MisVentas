@@ -25,13 +25,13 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center_horizontal">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/authentication_text"
             android:textSize="30sp"
             android:layout_margin="25dp"/>
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,14 +46,15 @@
             android:layout_marginHorizontal="20dp"
             android:ems="10"
             android:inputType="textEmailAddress"
+            android:text="correo@gmail.com"
             android:hint="@string/myEMail"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
             android:text="@string/password_text"
             android:textSize="20sp"/>
-
         <EditText
             android:id="@+id/edtPassword"
             android:layout_width="match_parent"
@@ -61,6 +62,7 @@
             android:layout_marginHorizontal="20dp"
             android:ems="10"
             android:inputType="textPassword"
+            android:text="123"
             android:hint="@string/myPassword_text"/>
 
         <Button
