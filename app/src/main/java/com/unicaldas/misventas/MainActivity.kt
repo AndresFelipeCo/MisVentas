@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     fun onLogin(botonLogin: android.view.View) {
         if(edtEmailAddress!!.text.toString() == "correo@gmail.com"){
             if(edtPassword!!.text.toString() == "123"){
-                val intento = Intent(this, Ventas::class.java)
+                val intento = Intent(this, Administrador::class.java)
                 startActivity(intento)
             }
             else{

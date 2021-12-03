@@ -8,7 +8,6 @@ import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
-import com.google.firebase.firestore.FirebaseFirestore
 
 class registro_vendedor : Fragment() {
     //private val db = FirebaseFirestore.getInstance()

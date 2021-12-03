@@ -27,6 +27,13 @@
             android:textColor="@color/design_default_color_primary_variant"
             android:textStyle="bold"/>
         <TextView
+            android:id="@+id/textViewCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha de la venta"
+            android:textSize="20sp"
+            android:textColor="@color/design_default_color_primary_variant"/>
+        <TextView
             android:id="@+id/textViewFecha"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

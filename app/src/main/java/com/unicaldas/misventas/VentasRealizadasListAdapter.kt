@@ -19,6 +19,11 @@ class VentasRealizadasListAdapter(context: AppCompatActivity,
 
     var myVentaTitulos: ArrayList<String> = info.getStringArrayList("titulos") as ArrayList<String>
     var myVentaFechas: ArrayList<String> = info.getStringArrayList("fechas") as ArrayList<String>
+    var myVentaClientes: ArrayList<String> = info.getStringArrayList("clientes") as ArrayList<String>
+    var myVentaDirecciones: ArrayList<String> = info.getStringArrayList("direcciones") as ArrayList<String>
+    var myVentaMetrosC: ArrayList<String> = info.getStringArrayList("metrosC") as ArrayList<String>
+    var myVentaLat: ArrayList<String> = info.getStringArrayList("lat") as ArrayList<String>
+    var myVentaLong: ArrayList<String> = info.getStringArrayList("long") as ArrayList<String>
     var myVentaValores: ArrayList<String> = info.getStringArrayList("valores") as ArrayList<String>
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
@@ -33,9 +38,26 @@ class VentasRealizadasListAdapter(context: AppCompatActivity,
         var textViewFecha = holder.layout.findViewById<TextView>(R.id.textViewFecha)
         textViewFecha.text = myVentaFechas[position]
 
+        var textViewCliente = holder.layout.findViewById<TextView>(R.id.textViewCliente)
+        textViewCliente.text = myVentaClientes[position]
+
         holder.layout.setOnClickListener {
-            Toast.makeText(holder.itemView.context, myVentaValores[position], Toast.LENGTH_LONG).show()
-            // val datos = Bundle() .../
+            //Toast.makeText(holder.itemView.context, myVentaValores[position], Toast.LENGTH_LONG).show()
+            val datos = Bundle()
+            datos.putString("titulo", textViewVenta.text as String)
+            datos.putString("fecha", textViewFecha.text as String)
+            datos.putString("cliente", textViewCliente.text as String)
+            datos.putString("direccion", myVentaDirecciones[position])
+            datos.putString("metrosC", myVentaMetrosC[position])
+            datos.putString("lat", myVentaLat[position])
+            datos.putString("long", myVentaLong[position])
+            datos.putString("valor", myVentaValores[position])
+
+            context.getSupportFragmentManager()?.beginTransaction()
+                ?.setReorderingAllowed(true)
+                ?.replace(R.id.fragment_container_view, DetailFragment::class.java, datos, "detail")
+                ?.addToBackStack("")
+                ?.commit()
         }
     }
 

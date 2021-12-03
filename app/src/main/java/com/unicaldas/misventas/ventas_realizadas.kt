@@ -42,14 +42,39 @@ class ventas_realizadas : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         var myVentaTitulos: ArrayList<String> = ArrayList()
 
-        myVentaTitulos.add(resources.getString(R.string.e_mail))
-        myVentaTitulos.add(resources.getString(R.string.e_mail))
-        myVentaTitulos.add(resources.getString(R.string.e_mail))
+        myVentaTitulos.add("Cortina plegable")
+        myVentaTitulos.add("Cortina Española")
+        myVentaTitulos.add("Cortina Italiana")
 
         var myVentaFechas: ArrayList<String> = ArrayList()
         myVentaFechas.add("30/11/2021")
         myVentaFechas.add("29/11/2021")
         myVentaFechas.add("30/11/2021")
+
+        var myVentaCliente: ArrayList<String> = ArrayList()
+        myVentaCliente.add("Pedro Jaramillo")
+        myVentaCliente.add("Angel Guaraca")
+        myVentaCliente.add("Alirio Estrada")
+
+        var myVentaDireccion: ArrayList<String> = ArrayList()
+        myVentaDireccion.add("Sandona")
+        myVentaDireccion.add("Pasto")
+        myVentaDireccion.add("Ipiales")
+
+        var myVentaMetrosC: ArrayList<String> = ArrayList()
+        myVentaMetrosC.add("15")
+        myVentaMetrosC.add("25")
+        myVentaMetrosC.add("35")
+
+        var  myVentaLat: ArrayList<String> = ArrayList()
+        myVentaLat.add("0")
+        myVentaLat.add("0")
+        myVentaLat.add("0")
+
+        var  myVentaLong: ArrayList<String> = ArrayList()
+        myVentaLong.add("0")
+        myVentaLong.add("0")
+        myVentaLong.add("0")
 
         var myVentaValores: ArrayList<String> = ArrayList()
         myVentaValores.add("2000")
@@ -59,6 +84,11 @@ class ventas_realizadas : Fragment() {
         var info: Bundle = Bundle()
         info.putStringArrayList("titulos", myVentaTitulos)
         info.putStringArrayList("fechas", myVentaFechas)
+        info.putStringArrayList("clientes", myVentaCliente)
+        info.putStringArrayList("direcciones", myVentaDireccion)
+        info.putStringArrayList("metrosC", myVentaLong)
+        info.putStringArrayList("lat", myVentaLat)
+        info.putStringArrayList("long", myVentaLong)
         info.putStringArrayList("valores", myVentaValores)
 
         listRecyclerView = requireView().findViewById(R.id.recyclerVentasRealizadasList)
