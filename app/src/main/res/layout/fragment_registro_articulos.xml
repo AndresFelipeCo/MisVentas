@@ -13,24 +13,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:text="Código"
-            android:layout_marginHorizontal="20dp"
-            android:layout_marginTop="10dp"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Código de la cortina"
-            android:layout_marginHorizontal="20dp"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:text="Tipo"
+            android:text="Tipo De Cortina"
             android:layout_marginHorizontal="20dp"
             android:layout_marginTop="10dp"/>
 
         <EditText
-            android:id="@+id/editTextNumber2"
+            android:id="@+id/edtTipoCortina"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Tipo de cortina"
@@ -44,7 +32,7 @@
             android:textSize="20sp"/>
 
         <EditText
-            android:id="@+id/edtEmailAddress"
+            android:id="@+id/edtColor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
@@ -57,7 +45,7 @@
             android:textSize="20sp"/>
 
         <EditText
-            android:id="@+id/edtPassword"
+            android:id="@+id/edtValorMetroC"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
@@ -66,7 +54,7 @@
             android:hint="valor metro cuadrado"/>
 
         <Button
-            android:id="@+id/btnLogin"
+            android:id="@+id/btnRegistrarP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"

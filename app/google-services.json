@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "420473807054",
+    "project_id": "mis-ventas-86a71",
+    "storage_bucket": "mis-ventas-86a71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420473807054:android:a2e40b3233ea819b40309f",
+        "android_client_info": {
+          "package_name": "com.unicaldas.misventas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420473807054-2tk8t9v1k8chmetdagbnv46k3s7djhju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4XAJ_oUc0-8OfUmh2sKSnCyywQte5BUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420473807054-2tk8t9v1k8chmetdagbnv46k3s7djhju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

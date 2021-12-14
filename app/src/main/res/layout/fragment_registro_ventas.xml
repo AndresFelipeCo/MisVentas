@@ -18,6 +18,7 @@
             android:layout_marginHorizontal="10dp"
             android:layout_marginTop="10dp"/>
         <EditText
+            android:id="@+id/edtNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Nombres y Apelidos"
@@ -31,7 +32,7 @@
             android:layout_marginTop="10dp"/>
 
         <EditText
-            android:id="@+id/editTextNumber2"
+            android:id="@+id/edtDocumento"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Documento"
@@ -63,9 +64,38 @@
             android:layout_marginHorizontal="10dp"
             android:layout_marginTop="10dp"/>
         <EditText
+            android:id="@+id/edtDireccion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Dirección del cliente"
+            android:inputType="number"
+            android:layout_marginHorizontal="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Telefono del cliente"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/edtTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telefono del cliente"
+            android:layout_marginHorizontal="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/e_mail"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/edtEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/e_mail"
+            android:inputType="textEmailAddress"
             android:layout_marginHorizontal="10dp"/>
 
         <TextView
@@ -77,7 +107,7 @@
             android:layout_marginTop="10dp"/>
 
         <EditText
-            android:id="@+id/editTextLatitud"
+            android:id="@+id/edtLatitud"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Latitud"
@@ -93,7 +123,7 @@
             android:layout_marginTop="10dp"/>
 
         <EditText
-            android:id="@+id/editTextLongitud"
+            android:id="@+id/edtextLongitud"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Longitud"
@@ -109,7 +139,7 @@
             android:layout_marginTop="10dp"/>
 
         <Spinner
-            android:id="@+id/spinnerTCortinas"
+            android:id="@+id/spinnerTCortina"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"/>
@@ -123,7 +153,7 @@
             android:layout_marginTop="10dp"/>
 
         <EditText
-            android:id="@+id/editTextAncho"
+            android:id="@+id/edtAncho"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Metros"
@@ -140,7 +170,7 @@
             android:layout_marginTop="10dp"/>
 
         <EditText
-            android:id="@+id/editTextAlto"
+            android:id="@+id/edtAlto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Metros"
@@ -149,11 +179,11 @@
             android:layout_marginHorizontal="10dp" />
 
         <Button
-            android:id="@+id/btnLogin"
+            android:id="@+id/btnVender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:text="Registrar"/>
+            android:text="Vender"/>
 
 
 

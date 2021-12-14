@@ -14,12 +14,15 @@
         <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/layout-sw720dp-land/activity_main.xml" value="0.1606425702811245" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/layout-sw720dp/activity_main.xml" value="0.1875" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.1606425702811245" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.15403005464480873" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/layout/activity_administrador.xml" value="0.21875" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/layout/activity_cargando.xml" value="0.25" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/layout/activity_ventas.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/layout/app_bar_ventas.xml" value="0.21875" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/layout/content_activity_administrador.xml" value="0.21875" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/layout/content_scrolling.xml" value="0.20425724637681159" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/layout/content_ventas.xml" value="0.2477355072463768" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/layout/fragment_abonos.xml" value="0.1875" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/layout/fragment_detail.xml" value="0.22327898550724637" />
@@ -34,6 +37,7 @@
         <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/layout/nav_header_ventas.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/layout/ventas_realizadas_list_items.xml" value="0.22780797101449277" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/menu/activity_main_drawer.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/menu/menu_registrar_vendedor.xml" value="0.25" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/MisVentas/app/src/main/res/menu/ventas.xml" value="0.12708333333333333" />
       </map>
     </option>

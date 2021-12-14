@@ -24,5 +24,10 @@
             android:id="@+id/nav_registro_vendedor"
             android:icon="@drawable/ic_action_add_reaction"
             android:title="@string/menu_seller_record" />
+
+        <item
+            android:id="@+id/nav_registrar"
+            android:icon="@drawable/ic_action_shopping"
+            android:title="Registrar" />
     </group>
 </menu>

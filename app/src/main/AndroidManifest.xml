@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MisVentas">
         <activity
+            android:name=".RegistrarVendedor"
+            android:exported="false"
+            android:label="@string/title_activity_registrar_vendedor"
+            android:theme="@style/Theme.MisVentas.NoActionBar" />
+        <activity
             android:name=".Administrador"
             android:exported="false" />
         <activity
